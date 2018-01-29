@@ -86,7 +86,7 @@ public class WeatherDbHelper extends SQLiteOpenHelper {
                         WeatherEntry.COLUMN_PRESSURE + " REAL NOT NULL, " +
 
                         WeatherEntry.COLUMN_WIND_SPEED + " REAL NOT NULL, " +
-                        WeatherEntry.COLUMN_DEGREES + " REAL" + ");";
+                        WeatherEntry.COLUMN_DEGREES + " REAL NOT NULL" + ");";
 
         /*
          * After we've spelled out our SQLite table creation statement above, we actually execute
